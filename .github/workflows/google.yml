@@ -25,10 +25,10 @@ jobs:
       working-directory: ./AutoRclone
       run: |
           pwd
-          python3 rclone_sa_magic.py -s 0AJR63Qu_FR8hUk9PVA -d 0AAZUgHSRMKvMUk9PVA -b 441 -e 500
+          python3 rclone_sa_magic.py -s 0AJR63Qu_FR8hUk9PVA -d 0AAZUgHSRMKvMUk9PVA -b 461 -e 500
                 
     - name: Into Autorclone amd Python Run (2)
       working-directory: ./AutoRclone
       run: |
           pwd
-          python3 rclone_sa_magic.py -s 0AJR63Qu_FR8hUk9PVA -d 0AAZUgHSRMKvMUk9PVA -b 531 -e 600
+          python3 rclone_sa_magic.py -s 0AJR63Qu_FR8hUk9PVA -d 0AAZUgHSRMKvMUk9PVA -b 551 -e 600
